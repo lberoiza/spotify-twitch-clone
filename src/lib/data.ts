@@ -64,6 +64,15 @@ export const playlists: Playlist[] = [
       "https://f4.bcbits.com/img/a0363730459_16.jpg",
     artists: ["WFS", "Nadav Cohen"],
   },
+  {
+    id: '7',
+    albumId: 7,
+    title: "Zelda Ocarina of Time",
+    color: colors.emerald,
+    cover:
+      "https://delta.vgmsite.com/soundtracks/legend-of-zelda-the-ocarina-of-time-original-sound-track-1998/Cover.jpg",
+    artists: ["No Tengo"],
+  },
 ];
 
 export const morePlaylists = playlists.map((item) => ({
@@ -317,5 +326,14 @@ export const songs: Song[] = [
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "4:20"
+  },
+  {
+    "id": 1,
+    "albumId": 7,
+    "title": "Title Theme",
+    "image": "https://delta.vgmsite.com/soundtracks/legend-of-zelda-the-ocarina-of-time-original-sound-track-1998/Cover.jpg",
+    "artists": ["No Tengo"],
+    "album": "Zelda Ocarina of Time",
+    "duration": "1:20"
   },
 ]
